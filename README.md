@@ -1,6 +1,6 @@
 # Run To Dance — Next-Generation Social Dance Platform
 
-Welcome to the official GitHub organization of \*\*Run To Dance\*\*, a multi-tenant SaaS platform created specifically for the global social dance community. Run To Dance streamlines event management for organizers of tango marathons, bachata festivals, salsa congresses, and West Coast Swing intensives, while delivering a seamless, frictionless ticket purchasing and check-in experience for dancers worldwide.
+Welcome to the official GitHub organization of **Run To Dance**, a multi-tenant SaaS platform created specifically for the global social dance community. Run To Dance streamlines event management for organizers of tango marathons, bachata festivals, salsa congresses, and West Coast Swing intensives, while delivering a seamless, frictionless ticket purchasing and check-in experience for dancers worldwide.
 
 ----
 
@@ -39,8 +39,46 @@ Run To Dance eliminates administrative friction by replacing generic forms and c
 
 The development of the Run To Dance platform is structured across four progressive phases, expanding from core ticketing to complete offline field autonomy and AI-powered automation.
 
-### Phase 1: MVP Core (Foundational Registration &amp; Sales) \* Multi-tenant organization setup and owner account initialization. 
+### Phase 1: MVP Core (Foundational Registration &amp; Sales) * Multi-tenant organization setup and owner account initialization. 
 * Event Master creation module (titles, descriptions, dates, custom URL slugs, and status toggles).
 * Configurable registration form schema and non-interactive pass matrix configuration.
-* Public Guest Checkout widget for account-free pass selection. \* Automated ticket generation with unique QR pass tokens and transactional email delivery.
+* Public Guest Checkout widget for account-free pass selection. * Automated ticket generation with unique QR pass tokens and transactional email delivery.
 
+### Phase 2: Release-1 (Role Balancing &amp; Operations)
+* Automated Lead/Follow balance tracking with configurable threshold constraints. 
+* Automated Waitlist queue handling and instant release logic upon matching role entry.
+* Reusable organization Artist &amp; Lineup catalog (instructors, DJs, orchestras).
+* One-click event cloning for recurring marathons and festivals. 
+* Integrated digital payment processing and platform fee management.
+
+### Phase 3: Release-2 (Field Operations &amp; Offline Autonomy)
+* Offline-first Progressive Web App (PWA) for gate volunteers and on-site staff.
+* Rapid camera-based QR code ticket scanning with sub-50ms local verification.
+* Dynamic wristband pairing: link anonymous barcode wristbands to attendee profiles on the fly upon arrival.
+* Local ticket sales at venue doors with multi-currency change calculation.
+* Gatekeeper security mode isolating check-in workflows from financial administration.
+
+### Phase 4: Release-3 (AI Intelligence &amp; Global Ecosystem) 
+* AI-assisted event generation: create event drafts, descriptions, and ticket structures from natural text prompts.
+* Automated multilingual translation for international event landing pages with Edge caching.
+* Embeddable, style-isolated Web Component widgets for external organizer websites.
+* Integrated social media announcement tools and viral share kits.
+* White-label branding controls and platform super-admin monitoring tools.
+
+---
+
+## 🌐 Ecosystem Architecture Overview Run To Dance is architected as an ultra-performant, edge-first web application designed for global speed and offline reliability:
+1. **Client Layer:** Modular web interfaces built with modern reactive components and native web standards, optimized for dark-mode venue environments and mobile devices.
+**Edge Services:** Global edge processing handling API routing, security rate limiting, media optimization, asset delivery, and instant language localization.
+**Data &amp; Security Layer:** High-performance data engine utilizing strict organization-level data isolation, encrypted participant information, and blind indexing for rapid search.
+**Field Execution Client:** Lightweight mobile PWA leveraging client-side offline storage and background sync to maintain continuous check-in throughput during network outages. 
+
+---
+
+## 🤝 Contributing &amp; Community Run To Dance is developed with a commitment to performance, elegance, and user empowerment.
+**Issues &amp; Discussions:** Feel free to open issues or join discussions regarding feature requests, event workflows, or integration feedback.
+**Code of Conduct:** We foster a respectful, inclusive environment for all dancers, organizers, and developers. 
+
+---
+
+*Powered by the Run To Dance Team. Connecting dancers and organizers worldwide.*
